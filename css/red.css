@@ -1,0 +1,34 @@
+body {
+  background-image: url("../img/rojo.jpg");
+  background-attachment: fixed;
+}
+
+#logo {
+  background: #771605;
+}
+
+#menu li:hover {
+  background: #9e2813;
+}
+
+.button-more {
+  background: #771605;
+}
+
+.button-more:hover {
+  background: #9e2813;
+}
+#form #button-submit {
+  background-color: #771605;
+}
+
+#form #button-submit:hover {
+  background-color: #9e2813;
+}
+
+#close {
+  background-color: #771605;
+}
+#close:hover {
+  background-color: #9e2813;
+}

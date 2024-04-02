@@ -1,0 +1,35 @@
+body {
+  background-image: url("../img/hojas.jpg");
+  background-attachment: fixed;
+}
+
+#logo {
+  background: #235e3d;
+}
+
+#menu li:hover {
+  background: #358d5b;
+}
+
+.button-more {
+  background: #235e3d;
+}
+
+.button-more:hover {
+  background: #358d5b;
+}
+#form #button-submit {
+  background-color: #235e3d;
+}
+
+#form #button-submit:hover {
+  background-color: #358d5b;
+}
+
+#close {
+  background-color: #235e3d;
+}
+
+#close:hover {
+  background-color: #358d5b;
+}

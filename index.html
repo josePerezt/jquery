@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="./js//jquery.js"></script>
+    <script src="./js//main.js"></script>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link id="theme" rel="stylesheet" href="./css/green.css" />
+
+    <!-- Slider -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+    <script src="./js/moment.js"></script>
+    <script src="./js/moment-with-locales.js"></script>
+    <title>Proyecto Jquery</title>
+  </head>
+  <body>
+    <div id="selector-theme">
+      <div id="to-green">🟢</div>
+      <div id="to-red">🔴</div>
+      <div id="to-blue">🔵</div>
+    </div>
+    <section id="global">
+      <!-- Cabecera -->
+      <header>
+        <div id="logo">
+          <h1>PROYECTO JS</h1>
+        </div>
+        <div class="clearfix"></div>
+        <nav>
+          <ul id="menu">
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Reloj</a></li>
+            <li><a href="#">Sobre mi</a></li>
+            <li><a href="#">Contacto</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <!-- slider  -->
+      <div id="slider">
+        <div>
+          <img src="img/hojas.jpg" />
+        </div>
+        <div>
+          <img src="img/cielo.jpg" />
+        </div>
+        <div>
+          <img src="img/rojo.jpg" />
+        </div>
+      </div>
+
+      <section id="content">
+        <div id="post"></div>
+        <aside id="sidebar">
+          <div id="about">
+            <h4><span>¿Quien soy?</span></h4>
+            <img src="./img/caracol.jpg" alt="" />
+            <p></p>
+            <div id="login">
+              <h4><span>Identificate</span></h4>
+              <form id="form">
+                <input type="text" name="name" placeholder="Nombre" id="name" />
+
+                <input type="email" name="email" placeholder="Email" />
+
+                <input type="password" name="password" placeholder="Password" />
+                <input type="submit" value="Entrar" id="button-submit" />
+              </form>
+            </div>
+          </div>
+        </aside>
+        <div class="clearfix"></div>
+      </section>
+    </section>
+    <footer id="footer">
+      Master de javascript de Victor Robles
+      <a href="#" class="subir">Ir arriba</a>
+    </footer>
+  </body>
+</html>
